@@ -1,0 +1,44 @@
+.blog-background{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("./Assets/blog-background.jpg");
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+    
+}
+.inner-div-title{
+    position: absolute;
+    color: white;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+}
+/* .blog-background-main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.blog-title{
+    font-size:50px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.blog-quets{
+    text-transform: uppercase;
+    font-weight: 10;
+    font-size: 12px;
+}
+.blog-click-btn{
+    border-radius:0px;
+    color: white;
+    margin-top: 50px;
+    width:150px;
+    height: 40px;
+    background-color: #4bd80a;
+}

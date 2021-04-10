@@ -1,0 +1,81 @@
+.Jumbo-card{
+    width: 100%;
+    height: 550px;
+    border: 0.5px solid black;
+    margin-top: 20px;
+  
+}
+.Jumbo-img{
+    width: 50%;
+    height: 250px;
+    /* border: 0.5px solid black; */
+}
+.jumbo-card-image{
+    max-width: auto;
+    height: 250px;
+}
+.jumbo-inner-container{
+    padding: 10px;
+}
+.Jumbo-title{
+    text-align: left;
+    padding-top: 5px;
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.jumbo-links{
+    font-weight: lighter;
+    line-height: 12px;
+    font-size: 12px;
+}
+.Jumbo-text{
+    overflow: hidden;
+    width: 100%;
+    height: 110px;
+    font-size:14px;
+    font-weight: 300;
+    padding-top: 5px;
+
+}
+.Jumbo-footer{
+    text-align: right;
+    margin-right: 5px;
+}
+.jumbo-box-blog-btn{
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: #4bd80a;
+    border-radius: 0;
+    box-shadow: 2px 2px 6px 0.4px rgb(61, 61, 61);
+    margin-top: 15px;
+}
+.social-media{
+    padding-top:5px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:776px) {
+    .Jumbo-card{
+ 
+        height: auto;
+
+    }
+    .Jumbo-img{
+        width: 100%;
+        height: auto;
+      
+    
+    }
+    .jumbo-card-image{
+        width: 100%;
+    }
+    .Jumbo-text{
+       
+        height: 130px;
+       
+    
+    }
+}

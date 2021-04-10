@@ -1,0 +1,16 @@
+.btn-search{
+    width: auto;
+    border-radius: 0px 5px 5px 0px;
+}
+.search-input{
+    border-radius: 5px 0px 0px 5px;
+}
+.search-blog-btn{
+    margin-top: 10px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+.form-outline{
+ width: 100%;
+}

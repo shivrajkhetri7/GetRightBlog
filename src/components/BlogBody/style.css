@@ -1,0 +1,9 @@
+.blog-body{
+    padding-top: 20px;
+
+}
+.all-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

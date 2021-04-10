@@ -1,0 +1,40 @@
+.blog-footer
+{
+    background-color: #282c34;
+    height: 300px;
+    margin-top: 20px;
+
+}
+
+/* .newsletter {
+    padding: 80px 0;
+    background: #19beda;
+    } */
+   
+    .newslatter{
+        width:100%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+        color: white;
+     
+    }
+    .content{
+        width: 100%;
+        height:auto;
+    }
+.btn-subscribe{
+    border-radius:  0px 5px 5px 0px;
+    background-color:#4bd80a ;
+}
+@media screen and (max-width:776px)
+{
+    .blog-footer{
+        height: auto;
+    }
+     .newslatter{
+        height: auto;
+    }
+}
